@@ -1,7 +1,15 @@
+import Header from "./pages/Header.jsx";
+import Menu from "./pages/Menu.jsx";
+import About from "./pages/About.jsx";
+import Galary from "./pages/Galary.jsx";
+
 function App() {
   return (
     <>
-      <h1 className="">Hallo</h1>
+      <Header />
+      <Menu />
+      <About />
+      <Galary />
     </>
   );
 }
