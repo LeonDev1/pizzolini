@@ -79,7 +79,7 @@ function Header() {
           >
             <img
               onClick={pizzaClick}
-              className="pizza-img z-5 h-full w-full shadow-smooth rounded-full hover:cursor-pointer"
+              className="big pizza-img z-5 h-full w-full shadow-smooth rounded-full hover:cursor-pointer"
               src={pizzaSalami}
               alt="Pizza"
             />

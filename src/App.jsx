@@ -1,6 +1,8 @@
 import gsap from "gsap";
 import { useGSAP } from "@gsap/react";
 import { ScrambleTextPlugin, SplitText, ScrollTrigger } from "gsap/all";
+import { hover, motion } from "motion/react";
+import { useEffect, useState } from "react";
 
 import Header from "./pages/Header.jsx";
 import Menu from "./pages/Menu.jsx";
@@ -11,6 +13,7 @@ import Footer from "./pages/Footer.jsx";
 
 function App() {
   gsap.registerPlugin(ScrambleTextPlugin, SplitText, ScrollTrigger);
+
   return (
     <>
       <Header />

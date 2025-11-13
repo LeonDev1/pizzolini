@@ -10,7 +10,7 @@
 
 @layer components {
   a {
-    @apply font-normal text-[1.5rem] text-text no-underline transition-all duration-300 ease-in-out hover:text-secondary hover:underline;
+    @apply font-normal text-[1.5rem] text-text no-underline transition-all duration-300 ease-in-out hover:text-primary;
   }
 
   body {
@@ -53,6 +53,14 @@
 
   .small-text {
     @apply text-[17px] font-normal;
+  }
+
+  a:hover .cursor-link-hover {
+    @apply w-10 h-10;
+  }
+
+  .cursor-pointer {
+    @apply cursor-none;
   }
 }
 
