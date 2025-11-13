@@ -1,12 +1,25 @@
+import { useGSAP } from "@gsap/react";
 import pizzaMargherita from "../assets/img/Pizza_Margherita.svg";
 import pizzaSalami from "../assets/img/Pizza_Salami.svg";
 import pizzaTonno from "../assets/img/Pizza_Tonno.svg";
+import gsap from "gsap";
+import { ScrollTrigger } from "gsap/all";
 
 function Menu() {
+  useGSAP(() => {
+    gsap.from(".menu", {
+      duration: 0.5,
+      autoAlpha: 0,
+      y: 40,
+      stagger: 1,
+      delay: 0.3,
+    });
+  });
+
   return (
     <section
       id="menu"
-      className="flex justify-between h-[70dvh] pl-5 pr-5 max-w-265.75 ml-auto mr-auto"
+      className="menu flex justify-between h-[70dvh] pl-5 pr-5 max-w-265.75 ml-auto mr-auto"
     >
       <Menu_Card
         name="MARGHERITA"
@@ -33,7 +46,11 @@ function Menu() {
 function Menu_Card(props) {
   return (
     <div className="flex gap-2.5 flex-col justify-center items-center w-[282px] h-[400px] rounded-[2.5rem] hover:bg-primary hover:rotate-[2.5deg] hover:cursor-pointer transition-all duration-300">
-      <img className="h-41.25" src={props.img} alt={props.imgAlt} />
+      <img
+        className="h-41.25 shadow-smooth rounded-full"
+        src={props.img}
+        alt={props.imgAlt}
+      />
       <h2 className="uppercase">{props.name}</h2>
       <p>{props.price}</p>
     </div>

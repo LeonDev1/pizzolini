@@ -1,0 +1,82 @@
+<svg width="164" height="165" viewBox="0 0 164 165" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip0_1070_129)">
+<ellipse cx="82" cy="82.5" rx="82" ry="82.5" fill="#F3A021"/>
+<mask id="mask0_1070_129" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="164" height="165">
+<path d="M82 1C126.729 1 163 37.4831 163 82.5C163 127.517 126.729 164 82 164C37.2707 164 1 127.517 1 82.5C1 37.4831 37.2707 1 82 1Z" fill="#D9D9D9" stroke="#731F4F" stroke-width="2"/>
+</mask>
+<g mask="url(#mask0_1070_129)">
+<path d="M85 0C129.724 0 166 36.4775 166 81.5C166 126.523 129.724 163 85 163C40.2762 163 4 126.523 4 81.5C4 36.4775 40.2762 0 85 0Z" stroke="#D27227" stroke-width="4"/>
+</g>
+<mask id="mask1_1070_129" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="102" y="-16" width="106" height="152">
+<rect x="102" y="-16" width="106" height="152" fill="#D9D9D9"/>
+</mask>
+<g mask="url(#mask1_1070_129)">
+<mask id="mask2_1070_129" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="-4" y="0" width="168" height="165">
+<path d="M80 1C125.857 1 163 37.5057 163 82.5C163 127.494 125.857 164 80 164C34.1433 164 -3 127.494 -3 82.5C-3 37.5057 34.1433 1 80 1Z" fill="#D9D9D9" stroke="#731F4F" stroke-width="2"/>
+</mask>
+<g mask="url(#mask2_1070_129)">
+<path d="M86 1C129.343 1 165 42.3266 165 94C165 145.673 129.343 187 86 187C42.6567 187 7 145.673 7 94C7 42.3266 42.6567 1 86 1Z" stroke="#FCCC79" stroke-width="4"/>
+</g>
+</g>
+<path d="M82 1C126.729 1 163 37.4831 163 82.5C163 127.517 126.729 164 82 164C37.2707 164 1 127.517 1 82.5C1 37.4831 37.2707 1 82 1Z" stroke="#731F4F" stroke-width="2"/>
+<ellipse cx="82" cy="81.5" rx="71" ry="70.5" fill="#D17027"/>
+<circle cx="82" cy="83" r="64.5" fill="#FFC91F" stroke="#E39F2A" stroke-width="3"/>
+<circle cx="82" cy="83" r="67.5" stroke="#731F4F" stroke-width="3"/>
+<path d="M47.5 42C54.4395 42 60 47.4078 60 54C60 60.5922 54.4395 66 47.5 66C40.5605 66 35 60.5922 35 54C35 47.4078 40.5605 42 47.5 42Z" fill="#F12024" stroke="#731F4F" stroke-width="2"/>
+<circle cx="50" cy="49" r="1" fill="#D2212A"/>
+<circle cx="45" cy="58" r="1" fill="#D2212A"/>
+<circle cx="41.5" cy="50.5" r="0.5" fill="#D2212A"/>
+<circle cx="50.5" cy="55.5" r="1.5" fill="#D2212A"/>
+<path d="M40.5 81C47.4395 81 53 86.4078 53 93C53 99.5922 47.4395 105 40.5 105C33.5605 105 28 99.5922 28 93C28 86.4078 33.5605 81 40.5 81Z" fill="#F12024" stroke="#731F4F" stroke-width="2"/>
+<circle cx="43" cy="88" r="1" fill="#D2212A"/>
+<circle cx="38" cy="97" r="1" fill="#D2212A"/>
+<circle cx="34.5" cy="89.5" r="0.5" fill="#D2212A"/>
+<circle cx="43.5" cy="94.5" r="1.5" fill="#D2212A"/>
+<path d="M83.5 63C90.4395 63 96 68.4078 96 75C96 81.5922 90.4395 87 83.5 87C76.5605 87 71 81.5922 71 75C71 68.4078 76.5605 63 83.5 63Z" fill="#F12024" stroke="#731F4F" stroke-width="2"/>
+<circle cx="86" cy="70" r="1" fill="#D2212A"/>
+<circle cx="81" cy="79" r="1" fill="#D2212A"/>
+<circle cx="77.5" cy="71.5" r="0.5" fill="#D2212A"/>
+<circle cx="86.5" cy="76.5" r="1.5" fill="#D2212A"/>
+<path d="M119.5 45C126.439 45 132 50.4078 132 57C132 63.5922 126.439 69 119.5 69C112.561 69 107 63.5922 107 57C107 50.4078 112.561 45 119.5 45Z" fill="#F12024" stroke="#731F4F" stroke-width="2"/>
+<circle cx="122" cy="52" r="1" fill="#D2212A"/>
+<circle cx="117" cy="61" r="1" fill="#D2212A"/>
+<circle cx="113.5" cy="53.5" r="0.5" fill="#D2212A"/>
+<circle cx="122.5" cy="58.5" r="1.5" fill="#D2212A"/>
+<path d="M120.5 89C127.439 89 133 94.4078 133 101C133 107.592 127.439 113 120.5 113C113.561 113 108 107.592 108 101C108 94.4078 113.561 89 120.5 89Z" fill="#F12024" stroke="#731F4F" stroke-width="2"/>
+<circle cx="123" cy="96" r="1" fill="#D2212A"/>
+<circle cx="118" cy="105" r="1" fill="#D2212A"/>
+<circle cx="114.5" cy="97.5" r="0.5" fill="#D2212A"/>
+<circle cx="123.5" cy="102.5" r="1.5" fill="#D2212A"/>
+<path d="M78.5 105C85.4395 105 91 110.408 91 117C91 123.592 85.4395 129 78.5 129C71.5605 129 66 123.592 66 117C66 110.408 71.5605 105 78.5 105Z" fill="#F12024" stroke="#731F4F" stroke-width="2"/>
+<circle cx="81" cy="112" r="1" fill="#D2212A"/>
+<circle cx="76" cy="121" r="1" fill="#D2212A"/>
+<circle cx="72.5" cy="113.5" r="0.5" fill="#D2212A"/>
+<circle cx="81.5" cy="118.5" r="1.5" fill="#D2212A"/>
+<path d="M87.5 22C94.4395 22 100 27.4078 100 34C100 40.5922 94.4395 46 87.5 46C80.5605 46 75 40.5922 75 34C75 27.4078 80.5605 22 87.5 22Z" fill="#F12024" stroke="#731F4F" stroke-width="2"/>
+<circle cx="90" cy="29" r="1" fill="#D2212A"/>
+<circle cx="85" cy="38" r="1" fill="#D2212A"/>
+<circle cx="81.5" cy="30.5" r="0.5" fill="#D2212A"/>
+<circle cx="90.5" cy="35.5" r="1.5" fill="#D2212A"/>
+<circle cx="62" cy="69" r="3" fill="#DC9328"/>
+<circle cx="64.5" cy="38.5" r="2.5" fill="#DC9328"/>
+<circle cx="34" cy="71" r="3" fill="#DC9328"/>
+<circle cx="65" cy="93" r="2" fill="#DC9328"/>
+<circle cx="54" cy="121" r="3" fill="#DC9328"/>
+<circle cx="109.5" cy="126.5" r="3.5" fill="#DC9328"/>
+<circle cx="92" cy="134" r="2" fill="#DC9328"/>
+<circle cx="98" cy="96" r="2" fill="#DC9328"/>
+<circle cx="105" cy="75" r="2" fill="#DC9328"/>
+<circle cx="134" cy="74" r="2" fill="#DC9328"/>
+<circle cx="104" cy="43" r="2" fill="#DC9328"/>
+<circle cx="93" cy="53" r="1" fill="#DC9328"/>
+<circle cx="72" cy="50" r="1" fill="#DC9328"/>
+<circle cx="1" cy="1" r="1" transform="matrix(-1 0 0 1 60 115)" fill="#DC9328"/>
+<ellipse cx="84" cy="155.5" rx="11" ry="2.5" fill="#F5B63B"/>
+<ellipse cx="82" cy="7.5" rx="11" ry="2.5" fill="#F5B63B"/>
+</g>
+<defs>
+<clipPath id="clip0_1070_129">
+<rect width="164" height="165" fill="white"/>
+</clipPath>
+</defs>
+</svg>

@@ -34,7 +34,7 @@
   }
 
   h3 {
-    @apply text-[0.875rem] font-normal;
+    @apply text-[17px] font-normal;
   }
 
   /* custom vars */
@@ -44,7 +44,15 @@
   }
 
   .galary-img {
-    @apply absolute rounded-[0.625rem];
+    @apply absolute rounded-[0.625rem] shadow-[5px_5px_20.1px_0px_rgba(0,0,0,0.25)];
+  }
+
+  .heading {
+    @apply absolute top-0 left-6/12 -translate-x-6/12 text-center;
+  }
+
+  .small-text {
+    @apply text-[17px] font-normal;
   }
 }
 
