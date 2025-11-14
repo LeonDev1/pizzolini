@@ -1,12 +1,12 @@
 import { useGSAP } from "@gsap/react";
 import { random, ScrollTrigger } from "gsap/all";
-import galaryDought from "../assets/img/GalaryImg_Dought.jpg";
-import galaryMargherita from "../assets/img/GalaryImg_Margherita.jpg";
-import galaryMargherita2 from "../assets/img/GalaryImg_Margherita_2.jpg";
-import galaryPizzaoven from "../assets/img/GalaryImg_Pizzaoven.jpg";
-import galarySalami from "../assets/img/GalaryImg_Salami.jpg";
-import galarySalami2 from "../assets/img/GalaryImg_Salami_2.jpg";
-import galaryTonno from "../assets/img/GalaryImg_Tonno.jpg";
+import galaryDought from "../assets/img/GalaryImg_Dought.webp";
+import galaryMargherita from "../assets/img/GalaryImg_Margherita.webp";
+import galaryMargherita2 from "../assets/img/GalaryImg_Margherita_2.webp";
+import galaryPizzaoven from "../assets/img/GalaryImg_Pizzaoven.webp";
+import galarySalami from "../assets/img/GalaryImg_Salami.webp";
+import galarySalami2 from "../assets/img/GalaryImg_Salami_2.webp";
+import galaryTonno from "../assets/img/GalaryImg_Tonno.webp";
 import pizzaSalami from "/Pizza_Salami.png";
 import gsap from "gsap";
 
@@ -17,7 +17,7 @@ function Galary() {
       scrollTrigger: { trigger: ".galary-images", start: "top 80%" },
       y: 30,
       opacity: 0,
-      delay: 0.2,
+      delay: 0.1,
       // clipPath: "inset(100% 0 0 0)",
     });
 
@@ -25,7 +25,7 @@ function Galary() {
       duration: 0.3,
       scrollTrigger: { trigger: ".galary-images", start: "top 80%" },
       clipPath: "inset(100% 0 0 0)",
-      delay: 0.2,
+      delay: 0.1,
     });
   });
 

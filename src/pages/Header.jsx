@@ -20,6 +20,14 @@ function Header() {
       ease: "expo",
     });
 
+    gsap.to(".pizza-img", {
+      duration: 5,
+      delay: 0.5,
+      rotateZ: "+=360",
+      repeat: -1,
+      ease: "none",
+    });
+
     gsap.from(split2.chars, {
       duration: 0.3,
       autoAlpha: 0,
@@ -52,12 +60,20 @@ function Header() {
   }, []);
 
   const pizzaClick = () => {
-    // alert("pizza");
     gsap.to(".pizza-img", {
       duration: 0.5,
       rotateZ: "+=180",
       ease: "power3",
       overwrite: "auto",
+      onComplete: () => {
+        gsap.to(".pizza-img", {
+          delay: 0.2,
+          duration: 5,
+          rotateZ: "+=360",
+          repeat: -1,
+          ease: "none",
+        });
+      },
     });
   };
 
@@ -89,10 +105,13 @@ function Header() {
 
         <p className="subheading">Delicious • Traditional • Simple</p>
 
-        <span className="flex items-center flex-col absolute bottom-2.5 right-2.5">
-          <p className="arrow-text">Try our Pizza!</p>
-          <img className="arrow w-[50px] h-[45px]" src={arrow} alt="arrow" />
-        </span>
+        <a href="#menu" className=" hover:text-text">
+          {" "}
+          <span className="flex items-center flex-col absolute bottom-2.5 right-2.5 hover:scale-105 transition-all duration-300">
+            <p className="arrow-text">Try our Pizza!</p>
+            <img className="arrow w-[50px] h-[45px]" src={arrow} alt="arrow" />
+          </span>
+        </a>
       </section>
     </>
   );

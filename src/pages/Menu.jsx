@@ -45,9 +45,9 @@ function Menu() {
 
 function Menu_Card(props) {
   return (
-    <div className="flex gap-2.5 flex-col justify-center items-center w-[282px] h-[400px] rounded-[2.5rem] hover:bg-primary hover:rotate-[2.5deg] hover:cursor-pointer transition-all duration-300">
+    <div className="menu-card flex gap-2.5 flex-col justify-center items-center w-[282px] h-[400px] rounded-[2.5rem] hover:bg-primary hover:rotate-[2.5deg] hover:cursor-pointer transition-all duration-300">
       <img
-        className="h-41.25 shadow-smooth rounded-full"
+        className="h-41.25 shadow-smooth rounded-full transition-all duration-300"
         src={props.img}
         alt={props.imgAlt}
       />

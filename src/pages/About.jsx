@@ -26,14 +26,6 @@ function About() {
     });
   }, []);
 
-  // gsap.from(split.words, {
-  //   scrollTrigger: ".box",
-  //   duration: 0.4,
-  //   y: 10,
-  //   autoAlpha: 0,
-  //   stagger: 0.01,
-  // });
-
   return (
     <section
       id="about"
@@ -41,12 +33,14 @@ function About() {
     >
       <h2 className="heading">About Us</h2>
       <div className="flex gap-18.5 items-center justify-center">
-        <img
-          id="about-img"
-          className="w-94.25 h-63 rounded-[25px] shadow-smooth object-cover hover:cursor-pointer"
-          src={aboutImg}
-          alt="About pizza"
-        />
+        <a href="#galary">
+          <img
+            id="about-img"
+            className="w-94.25 h-63 rounded-[25px] shadow-smooth object-cover hover:cursor-pointer hover:scale-103 transition-all duration-300 hover:shadow-2xl"
+            src={aboutImg}
+            alt="About pizza"
+          />
+        </a>
         <p className="about-text w-103">
           For generations, we have been crafting delicious, traditional pizzas
           from original family recipes. Our passion lies in simple, fresh
