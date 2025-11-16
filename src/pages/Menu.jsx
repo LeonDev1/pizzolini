@@ -1,9 +1,10 @@
 import { useGSAP } from "@gsap/react";
+import gsap from "gsap";
+import { ScrollTrigger } from "gsap/all";
+
 import pizzaMargherita from "../assets/img/Pizza_Margherita.svg";
 import pizzaSalami from "../assets/img/Pizza_Salami.svg";
 import pizzaTonno from "../assets/img/Pizza_Tonno.svg";
-import gsap from "gsap";
-import { ScrollTrigger } from "gsap/all";
 
 function Menu() {
   useGSAP(() => {

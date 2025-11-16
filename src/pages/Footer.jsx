@@ -41,9 +41,13 @@ function Footer() {
           alt="Profile Picture"
         />
         <h3 className="opacity-60">
-          This Website was made for educational Purposes by Leondev
+          This Website was made for educational Purposes by{" "}
+          <a href="https://leondev1.github.io/portfolio">Leondev</a>
         </h3>
-        <h3 className="opacity-50">Copyright © {currentYear} Leondev</h3>
+        <h3 className="opacity-50">
+          Copyright © {currentYear}{" "}
+          <a href="https://leondev1.github.io/portfolio">Leondev</a>
+        </h3>
       </div>
     </section>
   );

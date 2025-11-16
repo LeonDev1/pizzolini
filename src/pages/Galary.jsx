@@ -14,19 +14,25 @@ function Galary() {
   useGSAP(() => {
     gsap.from(".galary-images", {
       duration: 0.5,
-      scrollTrigger: { trigger: ".galary-images", start: "top 80%" },
+      scrollTrigger: { trigger: ".galary-images", start: "top 65%" },
       y: 30,
       opacity: 0,
-      delay: 0.1,
+      delay: 0.25,
       // clipPath: "inset(100% 0 0 0)",
     });
 
-    gsap.from(".galary-images img", {
-      duration: 0.3,
-      scrollTrigger: { trigger: ".galary-images", start: "top 80%" },
-      clipPath: "inset(100% 0 0 0)",
-      delay: 0.1,
-    });
+    gsap.fromTo(
+      ".galary-images img",
+      {
+        clipPath: "inset(100% 0 0 0) ",
+      },
+      {
+        duration: 0.3,
+        scrollTrigger: { trigger: ".galary-images", start: "top 65%" },
+        clipPath: "inset(0 0 0 0) ",
+        delay: 0.2,
+      }
+    );
   });
 
   return (

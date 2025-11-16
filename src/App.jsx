@@ -1,8 +1,6 @@
 import gsap from "gsap";
-import { useGSAP } from "@gsap/react";
 import { ScrambleTextPlugin, SplitText, ScrollTrigger } from "gsap/all";
-import { hover, motion } from "motion/react";
-import { useEffect, useState } from "react";
+import Lenis from "lenis";
 
 import Header from "./pages/Header.jsx";
 import Menu from "./pages/Menu.jsx";
@@ -13,6 +11,14 @@ import Footer from "./pages/Footer.jsx";
 
 function App() {
   gsap.registerPlugin(ScrambleTextPlugin, SplitText, ScrollTrigger);
+
+  // Lenis / smoothScroll
+  const lenis = new Lenis();
+  lenis.on("scroll", ScrollTrigger.update);
+  gsap.ticker.add((time) => {
+    lenis.raf(time * 1000);
+  });
+  gsap.ticker.lagSmoothing(0);
 
   return (
     <>

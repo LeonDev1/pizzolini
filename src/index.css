@@ -66,6 +66,10 @@
   .menu-card:hover img {
     @apply rotate-25;
   }
+
+  h3 a {
+    @apply text-[17px] underline hover:opacity-100 hover:text-text hover:font-medium hover:no-underline;
+  }
 }
 
 :root {

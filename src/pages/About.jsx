@@ -17,10 +17,9 @@ function About() {
     });
 
     gsap.from("#about-img", {
-      scrollTrigger: { trigger: "#about-img", start: "80% bottom" },
+      scrollTrigger: { trigger: "#about-img", start: "90% bottom" },
       duration: 0.5,
       // x: -20,
-      // autoAlpha: 0,
       ease: "sine",
       opacity: 0,
     });
